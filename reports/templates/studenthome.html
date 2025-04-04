@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+
+    <nav
+      class="bg-blue-600 p-4 text-white flex justify-between items-center shadow-md"
+    >
+      <h1 class="text-xl font-bold">Welcome Back!</h1>
+      <a
+        href="{% url 'student' %}"
+        class="px-4 py-2 bg-gray-200 text-blue-600 rounded"
+        >Dashboard</a
+      >
+    </nav>
+
+
+    <section
+      class="text-center py-20 bg-gradient-to-r from-blue-500 to-blue-600 text-white"
+    >
+      <h2 class="text-4xl font-bold mb-4">Your Work Report Status</h2>
+      <p class="text-xl font-medium text-gray-200">
+        Track, manage, and update your work reports efficiently.
+      </p>
+    </section>
+
+
+    <section class="text-center py-20 bg-white">
+      <div class="max-w-lg mx-auto p-6 bg-gray-50 rounded-lg shadow-lg">
+        <p class="text-xl text-gray-700">
+          Stay on top of your work reports with real-time tracking and insights.
+        </p>
+        <div class="mt-6 flex justify-center space-x-6">
+          <a
+            href="add_report.html"
+            class="px-6 py-3 bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700 transition duration-300"
+            >Add New Report</a
+          >
+          <a
+            href="view_reports.html"
+            class="px-6 py-3 bg-gray-300 text-blue-600 rounded-full shadow-md hover:bg-gray-400 transition duration-300"
+            >View Reports</a
+          >
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="bg-gray-900 text-white text-center p-4 mt-8">
+      <p>&copy; 2025 Work Status . All rights reserved.</p>
+    </footer>
+  </body>
+</html>
