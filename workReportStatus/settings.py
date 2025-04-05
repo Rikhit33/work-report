@@ -40,7 +40,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'workreportdb',
         'USER': 'avnadmin',
-        'PASSWORD': 'AVNS_EDBg30mKmRDfU1S4Rr4', 
+        'PASSWORD': 'AVNS_EDBg30mKmRDfU1S4Rrcdxdfd4', 
         'HOST': 'mysql-1c841165-bandivivek50-8439.c.aivencloud.com',
         'PORT': '22318',
         'OPTIONS': {
